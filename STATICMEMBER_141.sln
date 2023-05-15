@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Destruktor_141", "Destrukto
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Konstruktor_141", "Konstruktor_141\Konstruktor_141.vcxproj", "{5049BAA3-23D7-4505-BEB8-7A3E5E1C162A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mbrStaticfunc_141", "mbrStaticfunc_141\mbrStaticfunc_141.vcxproj", "{6F094EA6-C079-4EE6-8686-1DFB5723C304}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{5049BAA3-23D7-4505-BEB8-7A3E5E1C162A}.Release|x64.Build.0 = Release|x64
 		{5049BAA3-23D7-4505-BEB8-7A3E5E1C162A}.Release|x86.ActiveCfg = Release|Win32
 		{5049BAA3-23D7-4505-BEB8-7A3E5E1C162A}.Release|x86.Build.0 = Release|Win32
+		{6F094EA6-C079-4EE6-8686-1DFB5723C304}.Debug|x64.ActiveCfg = Debug|x64
+		{6F094EA6-C079-4EE6-8686-1DFB5723C304}.Debug|x64.Build.0 = Debug|x64
+		{6F094EA6-C079-4EE6-8686-1DFB5723C304}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F094EA6-C079-4EE6-8686-1DFB5723C304}.Debug|x86.Build.0 = Debug|Win32
+		{6F094EA6-C079-4EE6-8686-1DFB5723C304}.Release|x64.ActiveCfg = Release|x64
+		{6F094EA6-C079-4EE6-8686-1DFB5723C304}.Release|x64.Build.0 = Release|x64
+		{6F094EA6-C079-4EE6-8686-1DFB5723C304}.Release|x86.ActiveCfg = Release|Win32
+		{6F094EA6-C079-4EE6-8686-1DFB5723C304}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
