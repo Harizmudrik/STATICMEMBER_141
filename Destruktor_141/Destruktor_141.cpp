@@ -1,45 +1,21 @@
 #include <iostream>
 using namespace std;
-class buku
-{
-    string judul;
 
+class angka {
+private:
+    int* arr;
+    int panjang;
 public:
-    buku setJudul(string judul)
-    {
-        this->judul = judul;
-        return *this; // chain function
-
-    }
-    string getJudul()
-    {
-        return this->judul;
-    }
-} bukunya;
+    angka(int); //Constructor
+    ~angka();   //Destructor
+    void cetakData();
+   
+};
 
 int main()
 {
-    // bukunya.setJudul("Matematika");
-    // cout << bukunya.getJudul();
-    cout << bukunya.setJudul("Matematika").getJudul(); // chain function calls
-    return 0;
-
+    std::cout << "Hello World!\n";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
