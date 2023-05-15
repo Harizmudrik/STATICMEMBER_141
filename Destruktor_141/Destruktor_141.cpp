@@ -9,8 +9,15 @@ public:
     angka(int); //Constructor
     ~angka();   //Destructor
     void cetakData();
-   
+    void isiData();
+
 };
+//Definisi member Function
+angka::angka(int i){ //construktor
+    panjang = i;
+    arr = new int[i];
+    isiData();
+}
 
 int main()
 {
