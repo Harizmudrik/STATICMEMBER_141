@@ -19,6 +19,15 @@ angka::angka(int i){ //construktor
     isiData();
 }
 
+angka::~angka() { //Destruktor
+    cout << endl;
+    cetakData();
+    delete[]arr;
+    cout << "Alamat Array Sudah Dilepaskan" << endl;
+
+}
+
+
 int main()
 {
     std::cout << "Hello World!\n";
