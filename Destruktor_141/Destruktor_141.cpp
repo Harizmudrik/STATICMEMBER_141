@@ -27,10 +27,19 @@ angka::~angka() { //Destruktor
 
 }
 
+void angka::cetakData() {
+    for (int i = 1;i <= panjang;i++) {
+        cout << i << " = ";cin >> arr[i];
 
-int main()
-{
-    std::cout << "Hello World!\n";
+    }
+    cout << endl;
+}
+int main() {
+    angka belajarcpp(3); //Construktor Dipanggil
+    angka* ptrBelajarcpp = new angka(5); //Constructor Dipanggil 
+    delete ptrBelajarcpp; //Destructor Dipanggil
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
